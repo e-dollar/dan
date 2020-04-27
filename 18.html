@@ -1,0 +1,36 @@
+<!docktype html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+<div class="container">
+<h1>ordering of column</h1>
+  <div class="row">
+   <p>before ordering</p>]
+   
+   <div class="col-md-4"  style="background-color:#dedefB; 
+   box-shadow:inset 1px-1px 1px  inset-1px 1px 1px #444;">
+   i am on left
+   </div> 
+   <div class="col-md-8" style="background-color:#dedefB;
+   box-shadow:inset 1px-1px 1px  inset-1px 1px 1px #444;">
+   i am on right
+   </div>
+   </div><br>
+   <div class="row">
+   <p>after ordering</p>
+    <div class="col-md-4 col-md-push-8" 
+	style="background-color:#dedefB;
+	box-shadow: inset 1px-1px 1px
+	inset-1px 1px 1px #444;">
+   i was on the left
+   </div>
+   <div class="col-md-8 col-md-pull-4" 
+   style="background-color:#dedefB;
+   box-shadow: inset 1px-1px 1px #444,
+   inset -1px 1px 1px #444;">
+   i was on the right
+     </div>
+   </div>
+   </div>
+   </html>
